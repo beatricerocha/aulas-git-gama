@@ -1,8 +1,8 @@
 # indicar o nome do arquivo 
-util.lib
+#util.lib
 
 #indicar um conjunto de arquivo
-*.lib
+#*.lib
 
 #indicar uma pasta de arquvos
 lib/

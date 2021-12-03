@@ -7,20 +7,22 @@ public class Exercicio03 {
     Scanner entrada = new Scanner(System.in);
     int valorDigitado, cont;
 
-    System.out.print("Digite um numero: ");
+    System.out.println("Digite um numero: ");
     valorDigitado = entrada.nextInt();
 
     cont = 1;
 
-    while (cont <= valorDigitado) {
-      int proximoNumero = cont * 2;
-      if (proximoNumero <= valorDigitado) {// existirá outro num depois
-        System.out.print(cont + ",");
-      } else {
-        System.out.print(cont);
-      }
+    while (cont <= valorDigitado / 2) {
+
+      // int proximoNumero = cont * 2;
+      // if (proximoNumero <= valorDigitado) {// existirá outro num depois
+      System.out.print(cont + ",");
+      // } else {
+      // System.out.print(cont);
+      // }
       cont *= 2;// cont = cont * 2
     }
+    System.out.println(cont);
     entrada.close();
   }
 }

@@ -1,4 +1,4 @@
-package exercicio02;
+package exercicios.exercicio02;
 
 public class AppEbook {
   public static void main(String[] args) {

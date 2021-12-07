@@ -4,6 +4,10 @@ public class AppRelogio {
   public static void main(String[] args) {
     Relogio relogio = new Relogio(1, 20, 20);
 
-    relogio.exibirHora();
+    System.out.println(relogio.getHoraAtual());
+
+    relogio.setHora(12);
+
+    System.out.println(relogio.getHoraAtual());
   }
 }

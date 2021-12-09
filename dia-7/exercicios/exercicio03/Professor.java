@@ -12,6 +12,7 @@ public class Professor extends Pessoa {
     this.salario = salario;
   }
 
+  @Override
   public String getDados() {
     return super.getDados() + " - " + salario;
   }

@@ -12,6 +12,7 @@ public class Estudante extends Pessoa {
     this.curso = curso;
   }
 
+  @Override
   public String getDados() {
     return super.getDados() + ", " + curso;
   }

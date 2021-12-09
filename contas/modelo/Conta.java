@@ -35,6 +35,6 @@ public abstract class Conta { // classe abstrata = modelo para outras classes, n
 
   @Override
   public String toString() {
-    return numero + ": " + saldo;
+    return numero + ": " + String.format("%.2f", saldo);
   }
 }

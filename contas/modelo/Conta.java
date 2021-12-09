@@ -1,15 +1,16 @@
 package modelo;
 
-public abstract class Conta {
-  private int nConta;
+public abstract class Conta { // classe abstrata = modelo para outras classes, não pode instanciar objetos
+  private int numero;
   private double saldo;
 
-  public Conta(int nConta) {
-    this.nConta = nConta;
+  public Conta(int numero) {
+    this.numero = numero;
+    // this.saldo = 0;
   }
 
-  public String getNumero() {
-    return "Número da Conta" + nConta;
+  public int getNumero() {
+    return numero;
   }
 
   public double getSaldo() {
@@ -18,7 +19,7 @@ public abstract class Conta {
 
   public boolean deposito(double valor) {
     if (valor > 0) {
-      saldo += valor;// saldo = saldo + valor;
+      saldo += valor; // saldo = saldo + valor;
       return true;
     }
     return false;
@@ -26,7 +27,7 @@ public abstract class Conta {
 
   public boolean saque(double valor) {
     if (valor > 0) {
-      saldo -= valor;// saldo = saldo -valor;
+      saldo -= valor; // saldo = saldo - valor;
       return true;
     }
     return false;
@@ -34,6 +35,6 @@ public abstract class Conta {
 
   @Override
   public String toString() {
-    return "Conta: " + nConta + ": " + saldo;
+    return numero + ": " + saldo;
   }
 }

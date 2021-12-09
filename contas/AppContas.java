@@ -20,38 +20,37 @@ public class AppContas {
 
     while (opcao != 7) {
 
-      System.out.println("1- Nova CC");
-      System.out.println("2- Nova CE");
-      System.out.println("3- Nova CP");
+      System.out.println("1- Nova Conta Corrente");
+      System.out.println("2- Nova Conta Especial");
+      System.out.println("3- Nova Conta Poupança");
       System.out.println("4- Depositar");
       System.out.println("5- Sacar");
       System.out.println("6- Consultar Saldo");
       System.out.println("7- Sair");
-      System.out.println("Sua opção => ");
+      System.out.print("Sua opção => ");
 
       opcao = teclado.nextInt();
 
-      switch (opcao) {// if else...
+      switch (opcao) { // if / else / if / else ....
         case 1:
-          System.out.print("Informe o número da conta: ");
+          System.out.println("Informe o número da conta:");
           numeroConta = teclado.nextInt();
           cc = new ContaCorrente(numeroConta);
           contas.add(cc);
-          break;// interrompe
+          break; // interromper
 
         case 2:
-          System.out.print("Informe o número da conta: ");
+          System.out.println("Informe o número da conta:");
           numeroConta = teclado.nextInt();
-          System.out.print("Informe o Limite: ");
+          System.out.println("Informe o valor do limite:");
           limite = teclado.nextDouble();
           ce = new ContaEspecial(numeroConta, limite);
           contas.add(ce);
           break;
 
         case 3:
-          System.out.print("Informe o número da conta: ");
+          System.out.println("Informe o número da conta:");
           numeroConta = teclado.nextInt();
-          System.out.print("Informe o Limite: ");
           cp = new ContaPoupanca(numeroConta);
           contas.add(cp);
           break;
@@ -61,34 +60,40 @@ public class AppContas {
           break;
 
         case 5:
+
           break;
 
         case 6:
-          System.out.print("Informe o número da conta: ");
+          System.out.println("Informe o número da conta:");
           numeroConta = teclado.nextInt();
+
           // for (int i = 0; i < contas.size(); i++) {
-          // if (contas.get(i).getNumero() == numeroConta) {
+          // if(contas.get(i).getNumero() == numeroConta) {
           // System.out.println(contas.get(i));
-          // break;
+          // break; // interrompe o for
           // }
           // }
 
-          for (Conta conta : contas) {
+          // foreach = para cada valor da estrutura
+          for (Conta conta : contas) { // Para cada "conta" que está na estrutura "contas"
             if (conta.getNumero() == numeroConta) {
               System.out.println(conta);
               break;
             }
           }
+
           break;
 
         case 7:
           break;
-        default: // se não for nenhum
+
+        default: // se não for nenhum dos outros casos
           System.out.println("Opção inválida!");
           break;
-
       }
+
     }
+
     teclado.close();
   }
 }

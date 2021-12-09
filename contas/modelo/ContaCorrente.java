@@ -3,16 +3,16 @@ package modelo;
 public class ContaCorrente extends Conta {
   private final double TAXA_DEPOSITO = 0.1;
 
-  public ContaCorrente(int nConta) {
-    super(nConta);
+  public ContaCorrente(int numero) {
+    super(numero);
   }
 
   @Override
   public boolean saque(double valor) {
-    if (valor <= getSaldo()) {// não consigo acessar saldo pq é privado mas uso o metodo get
+    if (valor <= getSaldo()) {
       return super.saque(valor);
     }
-    return false; // nao tem saldo suficiente na conta
+    return false; // não tem saldo suficiente na conta
   }
 
   @Override
@@ -22,6 +22,7 @@ public class ContaCorrente extends Conta {
 
   @Override
   public String toString() {
-    return "CC: " + super.toString() + "\n";
+    return "CC: " + super.toString();
   }
+
 }

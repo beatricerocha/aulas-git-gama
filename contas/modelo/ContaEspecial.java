@@ -4,7 +4,7 @@ public class ContaEspecial extends Conta {
 
   private double limite;
 
-  public ContaEspecial(int nConta, int limite) {
+  public ContaEspecial(int nConta, double limite) {
     super(nConta);
     this.limite = limite;
   }

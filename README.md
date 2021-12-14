@@ -67,6 +67,6 @@
 - fk sempre com pk não coluna
 - inner join
 
-## Aula 10
+## Aula 11
 
 - Instalar Spring Boot Tools;

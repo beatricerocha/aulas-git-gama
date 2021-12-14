@@ -23,6 +23,7 @@ create table cliente (
 
 -- CUIDADO!!!! apaga a estrutura da tabela e TODOS os dados junto
 -- drop table cliente;
+-- drop database bd_itau;
 
 -- descrever os detalhes da tabela
 desc cliente;
@@ -81,3 +82,4 @@ from veiculo;
 
 select marca, modelo, nome
 from veiculo inner join cliente on veiculo.proprietario = cliente.codigo;
+

@@ -3,6 +3,8 @@ package br.itau.spring01.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -30,8 +32,14 @@ public class ClientController {
 
   @GetMapping("/all")
   public List<Client> listarTodos() {
-    List<Client> lista = (List<Client>) repo.findAll();
-    return lista;
+    List<Client> list = (List<Client>) repo.findAll();
+    return list;
+  }
+
+  @GetMapping("/list")
+  public Page<Client> listarTodosPaginado(Pageable pageable) {
+    Page<Client> list = repo.findAll(pageable);
+    return list;
   }
 
   @GetMapping("/{codigo}")
@@ -54,8 +62,12 @@ public class ClientController {
     // antes de apagar verifica se existe
     Client clienteEncontrado = repo.findById(codigo).orElse(null);
     if (clienteEncontrado != null) {
-      repo.deleteById(codigo);
-      return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+      try {
+        repo.deleteById(codigo);
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+      } catch (Exception e) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+      }
     }
     return ResponseEntity.notFound().build();
   }

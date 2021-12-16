@@ -83,3 +83,26 @@
 - [x] BEE1064
 - [x] BEE1114
 - [x] BEE1117
+
+## EXERCÍCIOS LISTA 1 - C#
+
+- [x] EXERCÍCIO 01
+- [x] EXERCÍCIO 02
+- [x] EXERCÍCIO 03
+- [x] EXERCÍCIO 04
+- [x] EXERCÍCIO 05
+- [x] EXERCÍCIO 06
+- [ ] EXERCÍCIO 07
+- [ ] EXERCÍCIO 08
+- [ ] EXERCÍCIO 09
+- [ ] EXERCÍCIO 10
+- [ ] EXERCÍCIO 11
+- [ ] EXERCÍCIO 12
+- [ ] EXERCÍCIO 13
+- [ ] EXERCÍCIO 14
+- [ ] EXERCÍCIO 15
+- [ ] EXERCÍCIO 16
+- [ ] EXERCÍCIO 17
+- [ ] EXERCÍCIO 18
+- [ ] EXERCÍCIO 19
+- [ ] EXERCÍCIO 20

@@ -1,11 +1,16 @@
 package br.itau.spring01.model;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "cliente")
@@ -21,6 +26,10 @@ public class Client {
 
   @Column(name = "email", length = 100, nullable = false, unique = true)
   private String email;
+
+  @OneToMany(mappedBy = "owner")
+  @JsonIgnoreProperties("owner")
+  private List<Vehicle> vehicles;
 
   public long getCod() {
     return cod;
@@ -44,6 +53,14 @@ public class Client {
 
   public void setEmail(String email) {
     this.email = email;
+  }
+
+  public List<Vehicle> getVehicles() {
+    return vehicles;
+  }
+
+  public void setVehicles(List<Vehicle> vehicles) {
+    this.vehicles = vehicles;
   }
 
 }

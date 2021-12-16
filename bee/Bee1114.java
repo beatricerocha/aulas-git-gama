@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Bee114 {
+public class Bee1114 {
 
   public static void main(String[] args) {
     Scanner entrada = new Scanner(System.in);

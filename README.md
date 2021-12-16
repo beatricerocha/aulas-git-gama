@@ -70,3 +70,16 @@
 ## Aula 11
 
 - Instalar Spring Boot Tools;
+
+## EXERCÍCIOS JAVA BEECROWD
+
+- [x] BEE1003
+- [x] BEE1004
+- [x] BEE1006
+- [x] BEE1035
+- [x] BEE1037
+- [x] BEE1048
+- [x] BEE1059
+- [x] BEE1064
+- [x] BEE1114
+- [x] BEE1117

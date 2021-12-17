@@ -7,7 +7,7 @@ class Program {
     Console.WriteLine("Seu Nome: ");
     pessoa = Console.ReadLine();
     Console.WriteLine("Sua Profissão: ");
-    ocupacao = Console.ReadLine();
+    ocupacao = Console.ReadLine(); 
 		Console.WriteLine("Animal favorito: ");
     animal = Console.ReadLine();
     Console.WriteLine("Nome de um Amigo: ");

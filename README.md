@@ -97,12 +97,12 @@
 - [ ] EXERCÍCIO 09
 - [ ] EXERCÍCIO 10
 - [ ] EXERCÍCIO 11
-- [ ] EXERCÍCIO 12
+- [x] EXERCÍCIO 12
 - [ ] EXERCÍCIO 13
 - [ ] EXERCÍCIO 14
 - [ ] EXERCÍCIO 15
 - [ ] EXERCÍCIO 16
 - [ ] EXERCÍCIO 17
 - [ ] EXERCÍCIO 18
-- [ ] EXERCÍCIO 19
+- [x] EXERCÍCIO 19
 - [ ] EXERCÍCIO 20

@@ -1,15 +1,5 @@
+ /* EXEMPLO 1 
 using System;
-
-class Program {
-  public static void Main (string[] args) {
-  
-  }
-}
-
-
-
-/*  EXEMPLO 1 */
-/*using System;
 
 class Program {
   public static void Main (string[] args) {
@@ -26,11 +16,12 @@ class Program {
     Console.WriteLine ("Soma:" + soma);
     Console.WriteLine("Total: " + mult);
   }
-}*/
-
-/* EXERCÍCIO 1*/
-/*Faça um programa que imprima na tela a frase: “Olá Mundo!”.*/
+}
+*/
 /*
+EXERCÍCIO 1
+Faça um programa que imprima na tela a frase: “Olá Mundo!”.
+
 using System;
 
 class Program {
@@ -39,10 +30,10 @@ class Program {
   }
 }
 */
-
-/* EXERCÍCIO 2*/
-/*Escreva um programa que imprima o seu nome completo na tela.*/
 /*
+ EXERCÍCIO 2
+Escreva um programa que imprima o seu nome completo na tela.
+
 using System;
 
 class Program {
@@ -51,10 +42,11 @@ class Program {
   }
 }
 */
-/* EXERCÍCIO 3*/
-/*Escreva um algoritmo que imprima na tela a seguinte mensagem:
-“A programação é aprendida escrevendo programas” (Brian Kernighan)*/
 /*
+ EXERCÍCIO 3
+Escreva um algoritmo que imprima na tela a seguinte mensagem:
+“A programação é aprendida escrevendo programas” (Brian Kernighan)
+
 using System;
 
 class Program {
@@ -63,9 +55,9 @@ class Program {
   }
 }
 */
-/* EXERCÍCIO 4*/
-/*Crie um programa que imprima o produto entre os números 25 e 27.*/
 /*
+ EXERCÍCIO 4
+Crie um programa que imprima o produto entre os números 25 e 27.
 using System;
 
 class Program {
@@ -73,12 +65,12 @@ class Program {
     int num = 25+27;
     Console.WriteLine ("O resultado é: " + num);
   }
-}*/
-
-/* EXERCÍCIO 5*/
-/*Faça um programa que leia um número inteiro e mostre-o na tela, por exemplo, da seguinte forma:
-O número inteiro digitado foi 4*/
+}
+*/
 /*
+ EXERCÍCIO 5
+Faça um programa que leia um número inteiro e mostre-o na tela, por exemplo, da seguinte forma:
+O número inteiro digitado foi 4
 using System;
 
 class Program {
@@ -92,10 +84,10 @@ class Program {
   }
 }
 */
-
-/* EXERCÍCIO 6*/
-/*Faça um programa que leia e imprima dois números inteiros na tela.*/
 /*
+ EXERCÍCIO 6
+Faça um programa que leia e imprima dois números inteiros na tela.
+
 using System;
 
 class Program {
@@ -111,10 +103,10 @@ class Program {
   }
 }
 */
-
-/* EXERCÍCIO 6*/
-/*Faça um programa que receba três notas, calcule e mostre a média aritmética.*/
 /*
+ EXERCÍCIO 7
+Faça um programa que receba três notas, calcule e mostre a média aritmética.
+
 using System;
 
 class Program {
@@ -134,4 +126,47 @@ class Program {
     Console.WriteLine ("Media:" + media);
   }
 }
+*/
+/*
+EXERCÍCIO 12
+Um funcionário recebe um salário fixo mais 5,5% de comissão sobre as vendas. Faça um programa que receba o salário fixo do funcionário e o valor de suas vendas no mês, calcule e mostre a comissão e seu salário final.
+using System;
 
+class Program {
+  public static void Main (string[] args) {
+  double salario, vendas, comisao, total;
+    Console.WriteLine ("Informe seu salário atual:" );
+    salario = double.Parse(Console.ReadLine()); 
+
+    Console.WriteLine("Informe as vendas:");
+    vendas = double.Parse(Console.ReadLine()); 
+
+    comisao = vendas * 5.5/100;
+    total = salario + comisao;
+
+    Console.WriteLine ("Comissão:" + comisao);
+    Console.WriteLine("Salario Final: " + total);
+  }
+}
+*/
+/*
+EXERCÍCIO 19
+Escreva um programa que leia um número inteiro no formato: centenas (C), dezenas (D) e Unidades (U); e imprima o número invertido. O número deverá ser armazenado em uma variável antes de ser impresso e você deverá usar apenas operadores matemáticos para resolver essa questão.
+
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+  int num1, num2, unid, dez, cent;
+    Console.WriteLine ("Informe um número com 3 digitos:" );
+    num1 = int.Parse(Console.ReadLine()); 
+
+    unid = num1 % 10;
+    cent = num1 / 100;
+    dez = (num1/10)%10;
+
+    Console.WriteLine("Número invertido:" + unid + dez+ cent);    
+  }
+}
+
+*/

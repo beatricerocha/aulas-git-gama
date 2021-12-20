@@ -1,0 +1,15 @@
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\bin\Debug\net6.0\ExemploTeste.exe
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\bin\Debug\net6.0\ExemploTeste.deps.json
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\bin\Debug\net6.0\ExemploTeste.runtimeconfig.json
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\bin\Debug\net6.0\ExemploTeste.dll
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\bin\Debug\net6.0\ref\ExemploTeste.dll
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\bin\Debug\net6.0\ExemploTeste.pdb
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\obj\Debug\net6.0\ExemploTeste.csproj.AssemblyReference.cache
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\obj\Debug\net6.0\ExemploTeste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\obj\Debug\net6.0\ExemploTeste.AssemblyInfoInputs.cache
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\obj\Debug\net6.0\ExemploTeste.AssemblyInfo.cs
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\obj\Debug\net6.0\ExemploTeste.csproj.CoreCompileInputs.cache
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\obj\Debug\net6.0\ExemploTeste.dll
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\obj\Debug\net6.0\ref\ExemploTeste.dll
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\obj\Debug\net6.0\ExemploTeste.pdb
+C:\Users\samsung\Documents\projetos-front\gama\treinamento\aulas-git-gama\dia-16\ExemploTeste\obj\Debug\net6.0\ExemploTeste.genruntimeconfig.cache

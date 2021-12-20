@@ -71,6 +71,10 @@
 
 - Instalar Spring Boot Tools;
 
+## Aula 16
+
+- Estrutura de repetição. For, While e Do-While.
+
 ## EXERCÍCIOS JAVA BEECROWD
 
 - [x] BEE1003

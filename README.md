@@ -75,6 +75,10 @@
 
 - Estrutura de repetição. For, While e Do-While.
 
+## Aula 17
+
+- Funções ou métodos e tipos de parametros.
+
 ## EXERCÍCIOS JAVA BEECROWD
 
 - [x] BEE1003
